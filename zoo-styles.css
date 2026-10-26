@@ -1,0 +1,125 @@
+body {
+background-color: #E3CCA1;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-right: solid 2px #52331c;
+    border-left: solid 2px #52331c;
+}
+
+/*TEXT TAG STYLES*/
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 76px;
+    color: #4D331E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+}
+h3 {
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+    color: #4D331E
+}
+p {
+    font-size: 16px;
+    color: #4D331E;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/*MENU SECTION*/
+#menu {
+    width: 170px;
+    float: left;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu li {
+    background-color: #e8cc9f;
+    border: 1px solid #4d331e;
+    margin: 4px;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+#menu a:link, #menu a:visited {
+    color: #060;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu a:hover, #menu a:active {
+    color: #900;
+    text-decoration: underline;
+}
+/*MAIN SECTION*/
+#main {
+    margin-left: 190px;
+}
+#main h3 {
+    color: #4D331E;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+#main p { 
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#main a:hover, #main a:active {
+    color: #03c;
+}
+
+/*FOOTER SECTION*/
+#footer {
+    background-color: #4D331E;
+    margin-top: 10px;
+    clear: both; /*MAKES FOOTER ALWAYS SIT UNDERNEATH MENU AND IMAGE*/
+}
+#footer p {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+#footer a:link, #footer a:visited {
+    color: #e8cc9f;
+    text-decoration: underline;
+}
+#footer a:hover, #footer a:active {
+    color: #000000;
+}
+
+/*LINK STYLES*/
+a:link, a:visited {
+    color: #060;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #900;
+    text-decoration: underline;
+}
+/*CLASS STYLES*/
+.rightfloat {
+    border: 2px solid #060;
+    margin: 8px;
+    float: right;
+}
